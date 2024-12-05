@@ -17,7 +17,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Form handling with validation
+// Form handling with validation check
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $valid = true; // Ensure this is reset for each POST
 
